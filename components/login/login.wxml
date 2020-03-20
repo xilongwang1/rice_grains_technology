@@ -1,0 +1,19 @@
+ <template name="login"> 
+    <view class="__lgpanel_mask" wx:if="{{!isHide}}">
+        <view class="__lgpanel">
+            <view class="__lgpanel_title">登录</view>
+            <view class="__lgpanel_username">
+                <text>用户名：</text>
+                <input type="number" value="{{phone}}" name=""/>
+            </view>
+            <view class="__lgpanel_pwd">
+                <text>密码：</text>
+                <input type="number" type="password" value="{{password}}"/>
+            </view>
+            <view class="__lgpanel_login">
+                <button size="mini" type="primary" open-type="getUserInfo" bindgetuserinfo="login">登录</button>
+                <button size="mini" type="warn" bindtap="__lgpanel_cancel">重置</button>
+            </view>
+        </view>
+    </view>
+ </template> 

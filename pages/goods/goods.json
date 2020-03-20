@@ -1,0 +1,6 @@
+
+{
+  "usingComponents": {
+    "register": "/components/register/register"
+  }
+}

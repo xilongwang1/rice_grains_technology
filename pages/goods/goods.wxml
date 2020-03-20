@@ -1,0 +1,10 @@
+<!-- pages/goods/goods.wxml -->
+<import src="../../components/login/login.wxml" />
+<view class="container">
+  <template is="login" data="{{...__lgpanel__}}"></template>
+  <view class="btn">
+    <button type="default" plain bindtap="openLogin">登录</button>
+    <button type="default" plain bindtap="register">注册</button>
+  </view>
+</view>
+<register id="register"></register>

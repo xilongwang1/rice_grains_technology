@@ -1,0 +1,8 @@
+/* pages/goods/goods.wxss */
+@import '../../components/login/login.wxss';
+
+.btn {
+    width: 400rpx;
+    display: flex;
+    justify-content: space-between;
+}
