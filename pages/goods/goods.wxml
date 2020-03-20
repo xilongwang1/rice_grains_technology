@@ -4,7 +4,7 @@
   <template is="login" data="{{...__lgpanel__}}"></template>
   <view class="btn">
     <button type="default" plain bindtap="openLogin">登录</button>
-    <button type="default" plain bindtap="register">注册</button>
+    <button type="default" plain bindtap="register">注册</button> 
   </view>
 </view>
 <register id="register"></register>
