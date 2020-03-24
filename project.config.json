@@ -13,8 +13,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.2",
-	"appid": "wx91df1303a49f602f",
-	"projectname": "WeChat_wxl_test",
+	"appid": "touristappid",
+	"projectname": "rice_grains_technology",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -30,13 +30,28 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/service/service",
+					"pathName": "pages/service/service",
+					"scene": null
+				}
+			]
 		}
 	}
 }
