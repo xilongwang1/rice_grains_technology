@@ -29,6 +29,8 @@ module.exports = {
                 })
             }
             let env = App.config.baseApi;
+            console.log(env + '/api/' + url);
+            
             wx.request({
                 url: env + '/api/' + url,
                 data,

@@ -1,24 +1,11 @@
-// pages/service/service.js
+// pages/goods/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    /**
-     * 搜索组件参数
-     */
-    parameter: {
-      width: '300px',
-        height: '60rpx',
-        border_radius: '30rpx',
-        align_icon: 'right',
-        border_color: "#F96831",
-        placeholder: "输入关键字",
-        keywords: "",
-        url: '/pages/goods/cate/cate',
-        imgUrl: ''
-    },
+
   },
 
   /**

@@ -1,0 +1,29 @@
+/* components/ml-search/ml-search.wxss */
+.ml_search {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.ml_search .img {
+    width: 60rpx;
+    height: 60rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml_search .img.right {
+    margin-right: 10rpx;
+}
+
+.ml_search .img image {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.ml_search input {
+    width: 100%;
+    margin-left: 20rpx;
+}
+

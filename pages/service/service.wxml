@@ -1,2 +1,4 @@
 <!--pages/service/service.wxml-->
-<text>pages/service/service.wxml</text>
+<text>新东方晕</text>
+<ml-search parameter='{{parameter}}'></ml-search>
+<!-- <ml-search></ml-search> -->
