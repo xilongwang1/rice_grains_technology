@@ -29,6 +29,8 @@ module.exports = {
                 })
             }
             let env = App.config.baseApi;
+            console.log(env + '/api/' + url);
+            
             wx.request({
                 url: env + '/api/' + url,
                 data,
@@ -57,10 +59,10 @@ module.exports = {
                     }
                 },
 
-                fail: function (e = { msg: errMsg, errMeg }) {
-                    console.log(e);
+                fail: function (err) {
+                    console.log(err);
 
-                    let msg = e.errMsg;
+                    let msg = err.errMsg;
                     // 自己测试出来的
                     if (msg == "request:fail timeout") {
                         message = "请求超时,请稍后处理";
@@ -69,7 +71,7 @@ module.exports = {
                         title: msg,
                         icon: "none"
                     })
-                    reject(e);
+                    reject(err);
                 }
             })
         })

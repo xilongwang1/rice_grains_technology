@@ -41,7 +41,8 @@ let _comMethod = {
                     iv: e.detail.iv,
                     signature: e.detail.signature,
                 }
-
+                console.log("登录",{...userInfo});
+                
                 app.post(Api.login, { ...userInfo }, { method: 'post' }).then(res => {
                     console.log(store.getItem('userInfo'), res.data);
                     if (res.status_code == '200') {

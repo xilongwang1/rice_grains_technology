@@ -1,1 +1,17 @@
 /* pages/service/service.wxss */
+
+.home_search {
+    display: flex;
+    padding: 0 32rpx 0 39rpx;
+}
+
+.home_search .category_icon {
+    width: 61rpx;
+    height: 61rpx;
+    margin-right: 21rpx;
+}
+
+.home_search .category_icon image {
+    width: 100%;
+    height: 100%;
+}

@@ -5,7 +5,10 @@
     "pages/goods/goods",
     "pages/service/service",
     "pages/cart/cart",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/goods/list/list",
+    "pages/goods/detail/detail",
+    "pages/goods/cate/cate"
   ],
   "window": {
     "backgroundTextStyle": "light",

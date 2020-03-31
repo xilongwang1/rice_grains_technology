@@ -1,21 +1,11 @@
-// pages/service/service.js
+// pages/goods/list/list.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    /**
-     * 搜索组件参数
-     */
-    parameter: {
-      width: '300px',
-        height: '60rpx',
-        border_radius: '30rpx',
-        align_icon: 'left',
-        border_color: "#D5D5D5",
-        placeholder: "输入商品名称",
-    },
+
   },
 
   /**
@@ -23,10 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-
-  mlKeywords: function(e) {
-    console.log(e.detail,"父组件的值");
   },
 
   /**

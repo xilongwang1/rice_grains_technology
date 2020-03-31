@@ -1,2 +1,7 @@
-<!--pages/service/service.wxml-->
-<text>pages/service/service.wxml</text>
+<!-- pages/service/service.wxml -->
+<view class="home_search">
+    <view class="category_icon"><image src="/image/home/category.png"></image></view>
+    <ml-search parameter='{{parameter}}' bind:mlKeyword="mlKeywords"></ml-search>
+</view>
+
+<ml-swiper></ml-swiper>
