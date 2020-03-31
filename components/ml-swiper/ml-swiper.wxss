@@ -1,1 +1,6 @@
 /* components/ml-swiper/ml-swiper.wxss */
+
+.ml_swiper {
+    margin: 0 auto;
+}
+

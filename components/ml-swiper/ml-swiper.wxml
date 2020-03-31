@@ -1,7 +1,10 @@
-<!--components/ml-swiper/ml-swiper.wxml-->
-<text>components/ml-swiper/ml-swiper.wxml</text>
-<view class="ml_swiper">
-    <swiper indicator-dots="{{true}}">
-
+<!-- components/ml-swiper/ml-swiper.wxml -->
+<view class="ml_swiper" style="width: {{parameter.width}}; height: {{parameter.height}}; ">
+    <swiper indicator-dots="{{parameter.dots}}" autoplay="{{parameter.autoplay}}" indicator-color="{{parameter.dots_color}}" indicator-active-color="{{parameter.dots_active_color}}" interval="{{parameter.interval}}" duration="{{parameter.duration}}" circular="{{parameter.circular}}" bindchange="change" style="width: {{parameter.width}}; height: {{parameter.height}};">
+        <block wx:for="{{parameter.list}}" wx:key="index">
+            <swiper-item>
+                <image style="width: {{parameter.width}}; height: {{parameter.height}}; border-radius: {{parameter.border_radius}};" src="{{item}}"></image>
+            </swiper-item>
+        </block>
     </swiper>
 </view>

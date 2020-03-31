@@ -25,8 +25,18 @@ Page({
 
   },
 
+  /**
+   * 搜索组件传递的参数 -- 关键词
+   */
   mlKeywords: function(e) {
     console.log(e.detail,"父组件的值");
+  },
+
+  /**
+   * swiper组件传递的参数 -- 当前banner下标
+   */
+  change: function (e) {
+    console.log(e.detail, "父组件的值")
   },
 
   /**
