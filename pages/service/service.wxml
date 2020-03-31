@@ -3,5 +3,6 @@
     <view class="category_icon"><image src="/image/home/category.png"></image></view>
     <ml-search parameter='{{parameter}}' bind:mlKeyword="mlKeywords"></ml-search>
 </view>
-
-<ml-swiper></ml-swiper>
+<view class="banner">
+    <ml-swiper bind:change="change"></ml-swiper>
+</view>
