@@ -1,10 +1,10 @@
 <!-- components/ml-search/ml-search.wxml -->
 <view class='ml_search' style="border-radius:{{parameter.border_radius}}; border:1rpx solid {{parameter.border_color}}; width: {{parameter.width}}; height: {{parameter.height}}">
-    <view class="img" wx:if="{{parameter.align_icon=='left'}}" bindtap="searchSubmitValue">
+    <view class="img" wx:if="{{parameter.align_icon=='left'}}" bindtap="navigate">
         <image src="{{parameter.imgUrl || '/image/icon/search.png'}}"></image>
     </view>
     <input type='text' placeholder='{{parameter.placeholder}}' bindconfirm="searchSubmitValue" confirm-type='search' name="search" placeholder-class='placeholder' bindinput="searchChange" value="{{parameter.keywords}}"></input>
-    <view class="img right" wx:if="{{parameter.align_icon=='right'}}" bindtap="searchSubmitValue">
+    <view class="img right" wx:if="{{parameter.align_icon=='right'}}" bindtap="navigate">
         <image src="{{parameter.imgUrl || '/image/icon/search.png'}}"></image>
     </view>
 </view>

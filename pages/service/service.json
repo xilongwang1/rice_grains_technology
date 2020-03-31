@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "ml-search": "/components/ml-search/ml-search"
+    "ml-search": "/components/ml-search/ml-search",
+    "ml-swiper": "/components/ml-swiper/ml-swiper"
   }
 }

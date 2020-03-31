@@ -1,0 +1,7 @@
+<!--components/ml-swiper/ml-swiper.wxml-->
+<text>components/ml-swiper/ml-swiper.wxml</text>
+<view class="ml_swiper">
+    <swiper indicator-dots="{{true}}">
+
+    </swiper>
+</view>

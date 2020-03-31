@@ -66,13 +66,25 @@ Component({
      */
     navigate: function (e) {
       let that = this;
+      if (!that.data.parameter.keywords) return;
       if (that.data.parameter.url) {
         wx.navigateTo({
           url: that.data.parameter.url + '?keywords=' + that.data.parameter.keywords
         })
       } else {
-        return that.data.parameter.keywords;
+        this.mlKeyword(that.data.parameter.keywords);
+        return;
       }
+    },
+
+    /**
+     * 将搜索关键字传给父组件
+     */
+    mlKeyword: function (keywords) {
+      let that = this;
+      console.log(keywords, "子组件的值");
+      
+      that.triggerEvent("mlKeyword", keywords);
     }
   }
 })
