@@ -12,12 +12,9 @@ Page({
       width: '300px',
         height: '60rpx',
         border_radius: '30rpx',
-        align_icon: 'right',
-        border_color: "#F96831",
-        placeholder: "输入关键字",
-        keywords: "",
-        url: '/pages/goods/cate/cate',
-        imgUrl: ''
+        align_icon: 'left',
+        border_color: "#D5D5D5",
+        placeholder: "输入商品名称",
     },
   },
 
@@ -26,6 +23,20 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+
+  /**
+   * 搜索组件传递的参数 -- 关键词
+   */
+  mlKeywords: function(e) {
+    console.log(e.detail,"父组件的值");
+  },
+
+  /**
+   * swiper组件传递的参数 -- 当前banner下标
+   */
+  change: function (e) {
+    console.log(e.detail, "父组件的值")
   },
 
   /**
