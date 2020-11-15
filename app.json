@@ -8,7 +8,8 @@
     "pages/mine/mine",
     "pages/goods/list/list",
     "pages/goods/detail/detail",
-    "pages/goods/cate/cate"
+    "pages/goods/cate/cate",
+    "pages/canvas/canvas"
   ],
   "window": {
     "backgroundTextStyle": "light",

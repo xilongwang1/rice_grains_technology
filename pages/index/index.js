@@ -80,5 +80,23 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  // 上传图片
+  updateImage() {
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success (res) {
+        // tempFilePath可以作为img标签的src属性显示图片
+        const tempFilePaths = res.tempFilePaths;
+        app.globalData.updateImage = res;
+        console.log(JSON.stringify(app.globalData.updateImage));
+        wx.navigateTo({
+          url: '/pages/canvas/canvas'
+        })
+      }
+    })
   }
 })

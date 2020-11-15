@@ -1,0 +1,9 @@
+<!--pages/canvas/canvas.wxml-->
+<view class="canvas-contain">
+    <view class="canvas">
+        <canvas canvas-id="sence"></canvas>
+    </view>
+    <view class="swiper">
+        
+    </view>
+</view>

@@ -63,6 +63,12 @@
 					"pathName": "pages/service/service",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "画布页",
+					"pathName": "pages/canvas/canvas",
+					"scene": null
 				}
 			]
 		}

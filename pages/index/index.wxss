@@ -16,6 +16,15 @@
   color: #aaa;
 }
 
+.updateImage {
+  margin-top: 50rpx;
+  width: 400rpx;
+  height: 80rpx;
+  background: #147faf;
+  color: #FFF;
+  line-height: 80rpx;
+}
+
 .usermotto {
   margin-top: 200px;
 }
